@@ -44,7 +44,7 @@ public class MailerImpl extends AbstractMailer implements Mailer,
 	
 	private static String flag="on";
 	private String schedulerFlag;
-	private String schedule; // Tid for når utsendelse skal skje
+	private String schedule; // Tid for når utsendelse skal skje 
 	private String reminderSubject ="Påminnelse - registrering av deltakere"; 
 	//private EmailDAOImpl emailDAORef;
 	CallSchedulerJob callSchedulerJob = new CallSchedulerJob();
